@@ -1,0 +1,127 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+}
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 20px;
+}
+.header {
+  font-size: 24px;
+  margin-left: 50px;
+}
+ul {
+  display: flex;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: 5px;
+  gap: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+  font-weight: lighter;
+}
+.headDiv {
+  display: flex;
+  padding: 50px;
+  background-color: #1f2937;
+  color: white;
+  gap: 50px;
+}
+.nix {
+  width: 300px;
+  height: auto;
+}
+.awe {
+  font-weight: 900;
+  font-size: 48px;
+}
+.sub {
+  margin-bottom: 10px;
+}
+.mid1 {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.randBoxText {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+}
+.box4 {
+  display: flex;
+  flex-direction: column;
+}
+.b1 {
+  width: 80px;
+  height: 80px;
+  border: solid;
+  border-color: #3882f6;
+  border-radius: 10px;
+}
+.randText {
+  width: 80px;
+  overflow-wrap: break-word;
+}
+.mid2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 80px;
+}
+.lorem {
+  font-style: italic;
+}
+#orig {
+  font-weight: bolder;
+  margin-left: auto;
+  margin-top: 0;
+}
+.mid3 {
+  background-color: #3882f6;
+  color: white;
+  margin: 50px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.mid3div {
+  display: flex;
+  gap: 50px;
+}
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+}
+.callbut {
+  border-color: white;
+}
